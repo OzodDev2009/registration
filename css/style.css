@@ -1,0 +1,128 @@
+@import url(./fonts.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.registration {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 1400px) {
+  .registration {
+    height: 120vh;
+  }
+}
+@media (max-width: 330px) {
+  .registration {
+    height: 114vh;
+  }
+}
+.registration .registration__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(15, 15, 238);
+  position: relative;
+  left: 200px;
+  top: 20px;
+}
+.registration .registration__btn a {
+  font-size: 10px;
+  color: white;
+  font-weight: 400;
+}
+@media (max-width: 505px) {
+  .registration .registration__btn {
+    position: relative;
+    left: 100px;
+  }
+}
+@media (max-width: 470px) {
+  .registration .registration__btn {
+    position: relative;
+    left: 130px;
+  }
+}
+@media (max-width: 370px) {
+  .registration .registration__btn {
+    position: relative;
+    left: 100px;
+  }
+}
+.registration .registration__content {
+  position: relative;
+  top: 70px;
+}
+@media (max-width: 500px) {
+  .registration .registration__content {
+    display: block !important;
+  }
+}
+.registration .registration__content h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.registration .registration__content label {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+@media (max-width: 330px) {
+  .registration .registration__content label {
+    font-size: 14px;
+  }
+}
+.registration .registration__content input {
+  border: none;
+}
+.registration .registration__content i {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.registration .registration__content button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background: orangered;
+  color: white;
+}
+.registration .registration__content button:hover {
+  box-shadow: 0px 0px 40px orangered;
+}/*# sourceMappingURL=style.css.map */
